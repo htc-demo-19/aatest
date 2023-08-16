@@ -16,5 +16,6 @@ containers:
       Hello: World
 
 resources:
+  s3: aatests3bucket
   dns: # We need a DNS record to point to the service 
     type: dns
